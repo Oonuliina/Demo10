@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              text-align: center;
+            }
+            </style>    
+        <meta charset="utf-8">
+        <title>Tehtävä 10 B</title>
+    </head>
+    <body>
+        <table>
+            <caption>Tietoa kissoista</caption>
+            <tr>
+                <td rowspan="3"></td>
+                <th>Nimi</th>
+                <th>Syntymäaika</th>
+                <th>Rotu</th>
+                <th>Silmien väri</th>
+                <th>Turkin väri</th>
+            </tr>
+            <tr>
+                <td>Nelma</td>
+                <td>23.5.2020</td>
+                <td>Brittiläinen lyhytkarva</td>
+                <td>Vihreä</td>
+                <td>Blue Golden Tipped</td>
+            </tr>
+            <tr>
+                <td>Sunny</td>
+                <td>29.7.2019</td>
+                <td>Pyhä birma</td>
+                <td>Sininen</td>
+                <td>Ruskeatabbynaamio</td>
+            </tr>
+            <th>Summa:</th>
+            <td colspan="5">Kaksi söpöä kissaa</td>
+        </table>
+        <br><br>
+            <form action="https://www.w3schools.com/action_page.php">
+                <fieldset>
+                    <legend>Täytä lomake liittyäksesi kerhoon</legend>
+                <label for="enimi">Etunimi:</label><br>
+                <input type="text" id="enimi" name="enimi" value="" required><br>
+                <label for="snimi">Sukunimi:</label><br>
+                <input type="text" id="snimi" name="snimi" value="" required><br>
+                <label for="sposti">Sähköposti:</label><br>
+                <input for="email" id="sposti" name="sposti" value="" required><br>
+                <label for="tekstikentta">Kerro itsestäsi lyhyesti:</label><br> 
+                <textarea id="tekstikentta" name="tekstikentta" rows="4" cols="80"></textarea><br><br>
+                <label for="checkbox">Minulla on lemmikkinä:</label><br>
+                <input type="checkbox" id="elain1" name="elain1" value="Kissa">
+                <label for="elain1"> Kissa</label><br>
+                <input type="checkbox" id="elain2" name="elain2" value="Koira">
+                <label for="elain2">Koira</label><br>
+                <input type="checkbox" id="elain3" name="elain3" value="Kana">
+                <label for="elain3">Kana</label><br><br>
+                <label for="cars">Valitse ruoka:</label>
+                <select name="ruuat" id="ruuat">
+                    <option value="makkaraperunat">Makkaraperunat</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="hampurilainen">Hampurilainen</option>
+                    <option value="salaatti">Salaatti</option>
+                </fieldset>    
+  </select>
+  <br><br>
 
+                <input type="submit" value="Add new user">
+
+        </form>
+    </body>
+</html>
