@@ -1,1 +1,29 @@
+body{
+    background-color: pink;
+}
 
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  th {
+      background-color: palevioletred;
+  }
+
+  td {
+      background-color: lightsteelblue;
+  }
+
+fieldset {
+    display: inline;
+    background-color: lightsteelblue;
+}
+
+legend {
+    background-color: palevioletred;
+    padding: 3px 6px;
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+}
